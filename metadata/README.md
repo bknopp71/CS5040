@@ -1,9 +1,7 @@
 ## Metadata Files For Silver and Non-Silver Image Datasets
 
+## orginal_dataset folder:
+metadata for the original downloaded datset 
 
-## Silver Images:
-silver_metadata.csv<br>
-silver_metadata.json<br>
-## Non-Silver Images:
+## cleaned_dataset folder:
 non_silver_metadata.csv<br>
-non_silver_metadata.json
