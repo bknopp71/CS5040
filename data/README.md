@@ -6,9 +6,10 @@ Non-silver Images: 3,655
 
    
 ### Cleaned and Balanced Silver Mineral Image Dataset 
-Silver Images: 3,655
-Non-silver Images: 3,655  
+Silver Images: 3,655   
+Non-silver Images: 3,655     
 [https://drive.google.com/drive/folders/XXXXXXXX](https://drive.google.com/drive/folders/1VoTjm4lIN6GQ2r1tS52o9DGcBkNzQaFO)
 
-## Note:
+## Note:   
+The original silver image dataset represents the initial unbalanced version collected for this project. The cleaned and balanced silver mineral image dataset was prepared for training machine learning algorithms and is ready for use.
 
