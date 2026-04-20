@@ -22,4 +22,4 @@ Metadata for the original dataset includes structured information for each image
 - **image_height** – Image height in pixels  
 - **aspect_ratio** – Ratio of width to height  
 
-Some entries in the original dataset contain missing or invalid metadata values due to failed downloads or corrupted images :contentReference[oaicite:0]{index=0}. These inconsistencies were addressed during the data cleaning process to produce the final balanced dataset used for model training.
+Some entries in the original dataset contain missing or invalid metadata values due to failed downloads or corrupted images. These inconsistencies were addressed during the data cleaning process to produce the final balanced dataset used for model training.
