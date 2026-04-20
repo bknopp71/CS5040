@@ -1,6 +1,6 @@
 ### Dataset of JPEG Mineral Images For Silver Classification.
 
-## Orginal Silver Image Dataset: 
+# Orginal Silver Image Dataset: 
 Silver Images: 16,580   
 Non-silver Images: 3,655   
                                 
