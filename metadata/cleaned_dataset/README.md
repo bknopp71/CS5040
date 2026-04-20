@@ -1,5 +1,15 @@
 # Cleaned and Balanced Silver Mineral Image Dataset
 
+## Description
+
+Metadata for both silver and non-silver classes is provided in CSV and JSON formats. The dataset is cleaned, balanced, and prepared for machine learning applications.
+
+## Dataset Summary
+
+- **Total Images:** 7,310  
+- **Silver Images:** 3,655  
+- **Non-silver Images:** 3,655  
+
 ## Metadata
 
 All images are standardized to a consistent size (e.g., 224 × 224 pixels) to ensure compatibility with machine learning models and efficient training.
@@ -18,10 +28,4 @@ Each image includes the following attributes:
 - **contrast** – Image contrast measurement  
 - **aspect_ratio** – Ratio of width to height  
 
-## Dataset Summary
-
-- **Total Images:** 7,310  
-- **Silver Images:** 3,655  
-- **Non-silver Images:** 3,655  
-
-All images are cleaned, balanced, and prepared for machine learning applications. Metadata is used to support efficient preprocessing, validation, and model training.
+Metadata supports efficient preprocessing, validation, and training of machine learning models.
