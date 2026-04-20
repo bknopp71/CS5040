@@ -1,1 +1,25 @@
+# Original Silver Image Dataset
 
+## Dataset Summary
+
+The original silver image dataset represents the initial unbalanced dataset collected for this project prior to cleaning and preprocessing.
+
+- **Total Images:** 20,564  
+- **Silver Images:** 3,869  
+- **Non-silver Images:** 16,695  
+
+## Metadata Description
+
+Metadata for the original dataset includes structured information for each image sample, such as:
+
+- **image_index** – Unique identifier for each image  
+- **label** – Class label (1 = silver, 0 = non-silver)  
+- **mineral** – Mineral name associated with the image  
+- **format** – Image file format (e.g., JPEG)  
+- **file_size** – File size in bytes  
+- **mode** – Color mode (e.g., RGB)  
+- **image_width** – Image width in pixels  
+- **image_height** – Image height in pixels  
+- **aspect_ratio** – Ratio of width to height  
+
+Some entries in the original dataset contain missing or invalid metadata values due to failed downloads or corrupted images :contentReference[oaicite:0]{index=0}. These inconsistencies were addressed during the data cleaning process to produce the final balanced dataset used for model training.
