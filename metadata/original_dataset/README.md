@@ -1,4 +1,4 @@
-# Original Silver Image Dataset Metadata for silver and non-silver image set
+# Original Silver Image Dataset Metadata
 
 ## Dataset Summary
 
