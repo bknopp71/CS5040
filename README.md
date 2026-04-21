@@ -8,6 +8,17 @@ All images were obtained from the Mindat database, a resource specializing in mi
 
 <img width="282" height="231" alt="image" src="https://github.com/user-attachments/assets/c2c94922-4b66-45d3-a374-4b0d28bb5c63" />
 
+## code_file
+This project uses 5 Jupyter Notebooks to implement the data collection, validation, machine learning workflow for the silver detection dataset.
+
+1. ***create_data_hwk2_final_BKnopp.ipynb***
+
+This notebook performs automated data acquisition. It reads the Mindat image URL list, filters minerals into silver and non-silver classes, and programmatically downloads available JPEG images. The script includes error handling, logging, and class balancing logic (including hard and easy negatives) to construct the final dataset.
+
+2. ***create_metadata_hw_2_final_BKnopp.ipynb***
+
+This notebook validates the downloaded dataset and generates structured metadata. It checks file integrity, extracts image properties (dimensions, size, format), assigns class labels, and exports metadata into CSV and JSON formats. These files are used to link each image to its corresponding data record for machine learning workflows.
+
 
 ## Data
 Images were collected from the Mindat.org database and organized into two binary categories for classification: **silver** and **non_silver** image class. The *silver_images* folder contains **3,869 JPEG images**, while the *non_silver_images* folder contains **16,695 JPEG images**. All image data are stored on Google OneDrive, and the data folder provides a direct link to the drive from the README.md file. The folder structure of the Gogle OneDrive is shown below.
@@ -55,18 +66,7 @@ All image classes have metadata stored in both CSV and JSON formats. The files a
 
 Both data structures store corresponding image data, with element 0 representing image_0 and element 1 representing image_1, continuing sequentially through the final image in the dataset. The metadata for silver images are stored in ***silver_metadata.csv*** and ***silver_metadata.json***, while the metadata for non-silver images are stored in ***non_silver_metadata.csv*** and ***non_silver_metadata.json***.
 
-## Code
-This project uses two Jupyter Notebooks to implement the data collection and validation workflow for the silver detection dataset.
 
-1. ***create_data_hwk2_final_BKnopp.ipynb***
-
-This notebook performs automated data acquisition. It reads the Mindat image URL list, filters minerals into silver and non-silver classes, and programmatically downloads available JPEG images. The script includes error handling, logging, and class balancing logic (including hard and easy negatives) to construct the final dataset.
-
-2. ***create_metadata_hw_2_final_BKnopp.ipynb***
-
-This notebook validates the downloaded dataset and generates structured metadata. It checks file integrity, extracts image properties (dimensions, size, format), assigns class labels, and exports metadata into CSV and JSON formats. These files are used to link each image to its corresponding data record for machine learning workflows.
-
-**Note:**  The other files can be ignored, as they are earlier versions used during development of the final code and retained only for backup purposes.
 
 ## Reference
 [1] Hudson Institute of Mineralogy, “Mindat.org – The Mineral Database.” [Online]. Available: https://www.mindat.org. Accessed: Feb. 14, 2026.
