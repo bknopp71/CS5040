@@ -21,7 +21,7 @@ This notebook performs automated data acquisition. It reads the Mindat image URL
 
 3. ***machine_learning_models.ipynb***
 
-This notebook validates the downloaded dataset and generates structured metadata. It checks file integrity, extracts image properties (dimensions, size, format), assigns class labels, and exports metadata into CSV and JSON formats. These files are used to link each image to its corresponding data record for machine learning workflows.
+This notebook applies transformer and CNN models to classify mineral images as silver or non-silver, using balanced datasets, preprocessing, model fine-tuning, and evaluation with standard metrics and threshold optimization .
 
 4. ***metadata.ipynb***
 
