@@ -66,18 +66,16 @@ The non-silver class is composed of approximately 70% hard negative images and 3
 - *Chalcopyrite*
 - *Molybdenite*
 
-Each image has corresponding metadata that provides a class label of 1 for silver and 0 for non-silver, along with the associated mineral name, which can be used directly in machine learning classification models. 
+Each image has corresponding metadata that provides a class label of 1 for silver and 0 for non-silver, along with the associated mineral name, which can be used directly in machine learning classification models. Each datasethas it own metadata file for each of its silver and non-silver class.
 
 **Note:** All other CSV and JSON files in the data folder can be ignored, as they are archived files used during the creation of the image dataset.
 
 ## Metadata
 All image classes have metadata stored in both CSV and JSON formats. The files are identical in content and follow the same labeling scheme. Each image has an associated set of metadata fields, as shown below.
 
-<p align="left">
-  <img width="566" height="295" alt="image" src="https://github.com/user-attachments/assets/28f7c591-84c3-4af7-a736-714f61754659" />
-</p>
+<p align="left"> <img width="566" height="295" alt="image" src="https://github.com/user-attachments/assets/28f7c591-84c3-4af7-a736-714f61754659" /> </p>
 
-Both data structures store corresponding image data, with element 0 representing image_0 and element 1 representing image_1, continuing sequentially through the final image in the dataset. The metadata for silver images are stored in ***silver_metadata.csv*** and ***silver_metadata.json***, while the metadata for non-silver images are stored in ***non_silver_metadata.csv*** and ***non_silver_metadata.json***.
+Both formats store corresponding image data, where element 0 represents image_0 and element 1 represents image_1, continuing sequentially through the dataset. Metadata for silver images is stored in silver_metadata.csv and silver_metadata.json, while metadata for non-silver images is stored in non_silver_metadata.csv and non_silver_metadata.json.
 
 
 
