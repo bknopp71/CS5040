@@ -11,14 +11,25 @@ All images were obtained from the Mindat database, a resource specializing in mi
 ## code_file
 This project uses 5 Jupyter Notebooks to implement the data collection, validation, machine learning workflow for the silver detection dataset.
 
-1. ***create_data_hwk2_final_BKnopp.ipynb***
+1. ***create_data.ipynb***
 
 This notebook performs automated data acquisition. It reads the Mindat image URL list, filters minerals into silver and non-silver classes, and programmatically downloads available JPEG images. The script includes error handling, logging, and class balancing logic (including hard and easy negatives) to construct the final dataset.
 
-2. ***create_metadata_hw_2_final_BKnopp.ipynb***
+2. ***data_exploration.ipynb***
+
+This notebook performs automated data acquisition. It reads the Mindat image URL list, filters minerals into silver and non-silver classes, and programmatically downloads available JPEG images. The script includes error handling, logging, and class balancing logic (including hard and easy negatives) to construct the final dataset.
+
+3. ***machine_learning_models.ipynb***
 
 This notebook validates the downloaded dataset and generates structured metadata. It checks file integrity, extracts image properties (dimensions, size, format), assigns class labels, and exports metadata into CSV and JSON formats. These files are used to link each image to its corresponding data record for machine learning workflows.
 
+4. ***metadata.ipynb***
+
+This notebook validates the downloaded dataset and generates structured metadata. It checks file integrity, extracts image properties (dimensions, size, format), assigns class labels, and exports metadata into CSV and JSON formats. These files are used to link each image to its corresponding data record for machine learning workflows.
+
+5. ***utility_JSON_conversion.ipynb***
+
+This notebook validates the downloaded dataset and generates structured metadata. It checks file integrity, extracts image properties (dimensions, size, format), assigns class labels, and exp
 
 ## Data
 Images were collected from the Mindat.org database and organized into two binary categories for classification: **silver** and **non_silver** image class. The *silver_images* folder contains **3,869 JPEG images**, while the *non_silver_images* folder contains **16,695 JPEG images**. All image data are stored on Google OneDrive, and the data folder provides a direct link to the drive from the README.md file. The folder structure of the Gogle OneDrive is shown below.
