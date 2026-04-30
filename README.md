@@ -21,7 +21,7 @@ This code performs exploratory data analysis on the silver and non silver minera
 
 3. ***machine_learning_models.ipynb***
 
-This notebook applies transformer and CNN models to classify mineral images as silver or non-silver, using balanced datasets, preprocessing, model fine-tuning, and evaluation with standard metrics and threshold optimization .
+This notebook applies five machine learning models to classify mineral images as silver or non silver using balanced datasets and structured preprocessing. The models include three CNN architectures which are ResNet 50 DenseNet 121 and EfficientNet B0 along with two transformer models which are ViT Base Patch16 224 and DeiT Small Patch16 224. Each model is fine tuned and evaluated using standard metrics with threshold optimization to improve overall performance and maximize silver detection. The results are presented with graphs and performance metrics to support clear interpretation and comparison of model behavior.
 
 4. ***metadata.ipynb***
 
