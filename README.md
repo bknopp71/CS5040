@@ -41,7 +41,7 @@ Images were collected from the Mindat.org database and organized into two binary
 <img width="612" height="245" alt="image" src="https://github.com/user-attachments/assets/1fea60e0-42f7-4296-9766-63cd80de31ac" /> <br>
 
 
-The silver class includes native silver and related silver-bearing minerals identified with the following keywords. A image distribution is not currently listed:
+The silver class includes native silver and related silver bearing minerals identified using specific keywords as shown below. The image distribution is not listed here but is included in the exploratory analysis code file.
 
 - *Silver*
 - *Argentum*
@@ -56,7 +56,7 @@ The silver class includes native silver and related silver-bearing minerals iden
 - *Miargyrite*
 - *Freibergite*
 
-The non-silver class is composed of approximately 70% hard negative images and 30% easy negative images to improve model robustness. The images are identified using the following keywords:
+The non silver class is composed of approximately 70% hard negative images and 30% easy negative images to improve model robustness. Hard negatives include the minerals listed below, and easy negatives include all minerals that are neither hard negatives nor silver bearing.
 
 - *Galena*
 - *Pyrite*
