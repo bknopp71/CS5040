@@ -17,7 +17,7 @@ This notebook performs automated data acquisition to produce images for the silv
 
 2. ***data_exploration.ipynb***
 
-This code explores the silver and non-silver dataset by generating distribution plots that show class balance, mineral types, and image characteristics such as width, aspect ratio, brightness, and contrast. It then prepares the dataset for machine learning by loading and formatting the images in Keras for CNN training.
+This notebook explores the silver and non-silver dataset by generating distribution plots that show class balance, mineral types, and image characteristics such as width, aspect ratio, brightness, and contrast. It then prepares the dataset for machine learning by loading and formatting the images in Keras for CNN training.
 
 3. ***machine_learning_models.ipynb***
 
