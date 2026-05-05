@@ -35,7 +35,7 @@ This notebook provides a function to convert CSV files into JSON format.
 Images were collected from the Mindat.org database and organized into two binary classes for classification: silver and non-silver. Two versions of the dataset are provided: the original downloaded dataset, which contains the full set of images prior to cleaning and balancing, and a cleaned, balanced dataset prepared for machine learning. In the original dataset, the silver_images folder contains 3,869 JPEG images, while the non_silver_images folder contains 16,695 JPEG images. All original images were identified using the image_url_list.csv file provided by O. Hennigh’s GitHub repository [2].The cleaned and balanced dataset contains exactly 7,310 images, with 3,655 images per class, resulting in a perfectly balanced 1:1 ratio. All image data are stored on Google OneDrive, and the data folder provides a direct link from the README.md file. The folder structure for both datasets on Google OneDrive is shown below.
 
 ### Original Silver Image Dataset
-<img width="517" height="258" alt="image" src="https://github.com/user-attachments/assets/fa95db72-092e-425e-aef7-c81316a17889" /> <br>
+<img width="527" height="322" alt="image" src="https://github.com/user-attachments/assets/13c39ec1-d47e-4cf0-a172-4a0651c2b0ad" /> <br>
 
 ### Cleaned and Balanced Silver Mineral Image Dataset
 <img width="612" height="245" alt="image" src="https://github.com/user-attachments/assets/1fea60e0-42f7-4296-9766-63cd80de31ac" /> <br>
