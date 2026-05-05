@@ -92,7 +92,8 @@ Both formats store corresponding image data, where element 0 represents image_0 
 
 
 ## Reference
-[1] Hudson Institute of Mineralogy, “Mindat.org – The Mineral Database.” [Online]. Available: https://www.mindat.org. Accessed: Feb. 14, 2026.
+[1] Hudson Institute of Mineralogy, “Mindat.org – The Mineral Database.” [Online]. Available: https://www.mindat.org. Accessed: Feb. 14, 2026.   
+
 [2] O. Hennigh, “MinDat-Mineral-Image-Dataset,” GitHub repository. [Online]. Available: https://github.com/loliverhennigh/MinDat-Mineral-Image-Dataset
 
 ## Author
